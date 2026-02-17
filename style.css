@@ -1,0 +1,385 @@
+/* ---------------RESET-------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* ---------------NAVBAR------------ */
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #2f8f8b;
+}
+
+.nav-hover {
+    position: relative;
+}
+
+.nav-hover:hover {
+    color: #2f8f8b !important;
+}
+
+.nav-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #2f8f8b;
+}
+
+.signin-btn,
+.buy-btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 6px;
+}
+
+.signin-btn:hover,
+.buy-btn:hover {
+    background: #2f8f8b;
+}
+
+/* --------------HERO SECTION--------------- */
+.hero-section {
+    padding: 60px 0;
+}
+
+.hero-image {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+/* -----------------HERO TEXT------------- */
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* ------------------SUPPORTED SECTION---------------- */
+.supported {
+    background: #f9f9f9;
+}
+
+.supported-title {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.brand-logo {
+    max-height: 40px;
+    opacity: 0.7;
+}
+
+.brand-logo:hover {
+    opacity: 1;
+}
+
+/* --------------SPECIAL OFFERS--------------- */
+.special-offers {
+    background: #fff;
+}
+
+.offer-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.offer-img {
+    width: 100%;
+}
+
+.offer-content {
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offer-content p {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #777;
+}
+
+.like-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: #f3f3f3;
+    font-size: 18px;
+}
+
+.like-btn:hover {
+    background: #2f8f8b;
+    color: #fff;
+}
+
+.explore-btn {
+    background: #222;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+}
+
+.explore-btn:hover {
+    background: #2f8f8b;
+}
+
+/* ----------------FEATURES & TESTIMONIALS-------------- */
+.features-testimonials {
+    padding: 80px 0;
+}
+
+/* Left Content */
+.feature-content .tagline {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.feature-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.feature-content h2 span {
+    font-weight: 400;
+}
+
+.feature-content ul {
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+.feature-content ul li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Testimonials */
+.testimonial-wrapper {
+    position: relative;
+    min-height: 700px;
+}
+
+.testimonial-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 26px 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    max-width: 420px;
+}
+
+.testimonial-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+    margin: 12px 0 18px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #2f8f8b;
+    font-weight: 700;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+/* Desktop Layout */
+@media (min-width: 992px) {
+    .testimonial-card {
+        position: absolute;
+    }
+
+    .t1 {
+        top: 0;
+        left: 0;
+    }
+
+    .t2 {
+        top: 220px;
+        right: 0;
+    }
+
+    .t3 {
+        top: 440px;
+        left: 0;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+
+    .hero-image {
+        min-height: 420px;
+        margin-bottom: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .hero-content p {
+        text-align: center;
+    }
+
+    .buy-btn {
+        display: block;
+        margin: auto;
+    }
+
+    .testimonial-wrapper {
+        min-height: auto;
+    }
+
+    .testimonial-card {
+        position: static;
+        margin-bottom: 24px;
+    }
+
+    .feature-content h2 {
+        font-size: 30px;
+    }
+}
+
+/* -------------Sizes Section--------------- */
+.sizes-section {
+    background: #fff;
+}
+
+/* --------------Gift Section--------------- */
+.gift-section {
+    padding: 100px 0;
+    background: #fff;
+}
+
+/* ---------------Product Grid--------------- */
+.products-section {
+    background: #fff;
+}
+
+.product-card {
+    background: #fff;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.product-img-box {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.product-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h6 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #1a1c20;
+}
+
+.product-info p {
+    color: #666;
+    font-size: 15px;
+}
+
+/* Footer */
+.footer {
+    background: #fff;
+    border-top: 1px solid #f0f0f0;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1a1c20;
+    margin-bottom: 24px;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #1a1c20;
+}
+
+.social-link {
+    color: #334d41;
+    font-size: 20px;
+}
+
+.social-link:hover {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .footer-title {
+        margin-top: 16px;
+    }
+}

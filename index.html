@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopPod</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-------------------NAVBAR------------->
+    <nav class="navbar navbar-expand-lg bg-white py-3" data-aos="fade-down">
+
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Shop<span>Pod</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto gap-4">
+                    <li class="nav-item"><a class="nav-link nav-hover" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover" href="#">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover" href="#">Blogs</a></li>
+                </ul>
+                <button class="signin-btn ms-lg-4">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <!----------------------HERO SECTION-------------------->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-----IMAGE SIDE----->
+                <div class="col-lg-6 hero-image" data-aos="fade-right">
+
+                    <img src="girl_with_shopping_bags.png" alt="Shopping Girl">
+                </div>
+
+                <!-------TEXT SIDE------>
+                <div class="col-lg-6 hero-content" data-aos="fade-left">
+
+                    <h1>Experience the best in fashion at ShopPod!</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur.
+                        Sit mattis donec mi bibendum integer rutrum nisi.
+                        A nec nisl vitae.
+                    </p>
+                    <button class="buy-btn">Buy Now →</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--------------Supported By Section---------->
+    <section class="supported py-5">
+        <div class="container text-center">
+
+            <h5 class="supported-title mb-4" data-aos="fade-up">Supported By</h5>
+
+            <div class="row align-items-center justify-content-center g-4">
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+
+                    <img src="Brand logos/Tiffany & Co.png" class="img-fluid brand-logo" alt="Tiffany&CO">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+
+                    <img src="Brand logos/Chanel.png" class="img-fluid brand-logo" alt="Chanel">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+
+                    <img src="Brand logos/Zara.png" class="img-fluid brand-logo" alt="Zara">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+
+                    <img src="Brand logos/Gucci.png" class="img-fluid brand-logo" alt="Gucci">
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+
+                    <img src="Brand logos/Dior.png" class="img-fluid brand-logo" alt="Dior">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------Bootstrap JS------>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!----------------Special Offers Section---------------->
+    <section class="special-offers py-5">
+        <div class="container">
+
+            <!------------Section Title-------->
+            <div class="text-center mb-5">
+                <h4 class="fw-semibold">Special Offers</h4>
+            </div>
+
+            <!------------Cards Row---------->
+            <div class="row g-4 justify-content-center">
+
+                <!--------Card 1------>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="offer-card">
+                        <img src="offers/offer1.png" class="img-fluid offer-img" alt="Free Shipping">
+
+                        <div class="offer-content">
+                            <div>
+                                <h5>Free shipping</h5>
+                                <p>Cambridge, Massachusetts, UK</p>
+                            </div>
+                            <button class="like-btn">♡</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------Card 2------>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="offer-card">
+                        <img src="offers/offer2.png" class="img-fluid offer-img" alt="Discount">
+
+                        <div class="offer-content">
+                            <div>
+                                <h5>Discount %20</h5>
+                                <p>Cambridge, Massachusetts, UK</p>
+                            </div>
+                            <button class="like-btn">♡</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!------Card 3---------->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="offer-card">
+                        <img src="offers/offer3.png" class="img-fluid offer-img" alt="Buy One Get One">
+
+                        <div class="offer-content">
+                            <div>
+                                <h5>Buy one, get one</h5>
+                                <p>Cambridge, Massachusetts, UK</p>
+                            </div>
+                            <button class="like-btn">♡</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--------Explore More Button-------->
+            <div class="text-center mt-5">
+                <button class="explore-btn">Explore More →</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--------------------------Features & Testimonials-------------------->
+    <section class="features-testimonials">
+        <div class="container">
+            <div class="row align-items-start">
+
+                <!---------LEFT CONTENT---------->
+                <div class="col-lg-6 feature-content" data-aos="fade-right">
+
+                    <p class="tagline">Stand out with our trendy merchandise.</p>
+
+                    <h2>
+                        Elevate your wardrobe with <br>
+                        <span>our exclusive collection.</span>
+                    </h2>
+
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Massa quis natoque sit quam</li>
+                        <li>Eros non pellentesque elit</li>
+                        <li>tortor id euismod habitant</li>
+                        <li>Sed suspendisse id in ultrices</li>
+                    </ul>
+
+                    <button class="explore-btn">Explore More →</button>
+                </div>
+
+                <!-------RIGHT TESTIMONIALS----->
+                <div class="col-lg-6">
+                    <div class="testimonial-wrapper">
+
+                        <div class="testimonial-card t1" data-aos="fade-up">
+                            <span class="quote">“</span>
+                            <p>
+                                Lorem ipsumcs, ncjwdcnwid, hcbwhcw, jsicwbcdu, cwdbchw
+                                sgui sniajdued hstqv dbsdhi dgcjns dhcnj ubscn kdscnjwd.
+                            </p>
+                            <div class="user">
+                                <strong>Esther Howard</strong>
+                                <img src="users/user1.png" alt="User1">
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t2" data-aos="fade-up" data-aos-delay="200">
+                            <span class="quote">“</span>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                ser mdjgche sahqyvc dbdhch ajbcayu snsgvacg xhhsbcysb.
+                            </p>
+                            <div class="user">
+                                <strong>Esther Howard</strong>
+                                <img src="users/user2.png" alt="User2">
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card t3" data-aos="fade-up" data-aos-delay="400">
+                            <span class="quote">“</span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                ipsum dolor sit amet consectetur adipisicing elit. Earum!
+                            </p>
+                            <div class="user">
+                                <strong>Esther Howard</strong>
+                                <img src="users/user3.png" alt="User3">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--------------SIZE RANGE---------------->
+
+    <section class="sizes-section py-5 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6" data-aos="zoom-in">
+                    <img src="size_range.png" alt="range_image" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 content-side ps-lg-5" data-aos="fade-left">
+
+                    <h2 class="fw-bold mb-4">Find your perfect fit with our wide range of sizes</h2>
+                    <h5 class="fw-bold mb-3">Free shipping on orders over $50.</h5>
+                    <p class="text-muted mb-5">
+                        Lorem ipsum dolor sit amet consectetur. Massa quis natoque sit quam.
+                        Eros non pellentesque elit tortor id euismod habitant cras neque.
+                        Sed suspendisse id in ultrices adipiscing id adipiscing.
+                    </p>
+                    <button class="explore-btn px-5 py-3 rounded-0">Explore More →</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!---------------FREE GIFT---------------->
+
+    <section class="gift-section py-5 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center flex-row-reverse g-5">
+
+                <div class="col-lg-6" data-aos="fade-left">
+
+                    <img src="free_image.png" alt="free-gift-img" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 pe-lg-5" data-aos="fade-right">
+
+                    <div class="content-wrapper">
+                        <h2 class="display-5 fw-bold mb-4">Get a free gift with purchase of $75 or more.</h2>
+                        <h5 class="fw-bold mb-3">Don't miss out on our flash sale</h5>
+                        <p class="text-muted mb-5">
+                            Lorem ipsum dolor sit amet consectetur. Massa quis natoque sit quam.
+                            Eros non pellentesque elit tortor id euismod habitant cras neque.
+                            Sed suspendisse id in ultrices adipiscing id adipiscing.
+                        </p>
+                        <button class="explore-btn px-5 py-3 rounded-0">Explore More →</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-------------PRODUCT GRID--------------->
+
+    <section class="products-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h4 class="fw-semibold">See All Products</h4>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
+
+                <div class="col" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <img src="products/handbag.png" alt="Hand-bag">
+                        </div>
+                        <div class="product-info">
+                            <h6>Over The Cloud Sock</h6>
+                            <p>16.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <img src="products/suitcase.png" alt="Suitcase">
+                        </div>
+                        <div class="product-info">
+                            <h6>Over The Cloud Sock</h6>
+                            <p>16.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <img src="products/umbrella.png" alt="Umbrella">
+                        </div>
+                        <div class="product-info">
+                            <h6>Over The Cloud Sock</h6>
+                            <p>16.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <img src="products/tumbler.png" alt="Tumbler">
+                        </div>
+                        <div class="product-info">
+                            <h6>Kids Stop Illegal Online</h6>
+                            <p>10.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <img src="products/towel.png" alt="Towel">
+                        </div>
+                        <div class="product-info">
+                            <h6>Kids Panda - Panda</h6>
+                            <p>10.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" data-aos="fade-up" data-aos-delay="150">
+
+                    <div class="product-card">
+                        <div class="product-img-box">
+                            <img src="products/leaves.png" alt="Leaves">
+                        </div>
+                        <div class="product-info">
+                            <h6>Kids Mountain Gorillas Sock</h6>
+                            <p>10.00 USD</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-4">
+                <button class="explore-btn px-5 py-3 rounded-0">Explore More →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------FOOTER----------------->
+
+    <footer class="footer py-5 mt-5" data-aos="fade-up">
+
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up">
+
+                    <h6 class="footer-title">About</h6>
+                    <p class="text-muted small pe-lg-4">
+                        Follow us on social media for exclusive promotions and deals.
+                    </p>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h6 class="footer-title">Latest website</h6>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Discount</a></li>
+                        <li><a href="#">Trend</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h6 class="footer-title">Information</h6>
+                    <ul class="footer-links list-unstyled">
+                        <li><a href="#">Mailing List</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 ms-lg-auto">
+                    <h6 class="footer-title">Social</h6>
+                    <div class="social-icons d-flex gap-4">
+                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+
+</body>
