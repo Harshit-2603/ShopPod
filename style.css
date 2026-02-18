@@ -29,15 +29,8 @@ body {
 }
 
 .nav-hover::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 100%;
-    height: 2px;
-    background: #2f8f8b;
+    display: none;
 }
-
 .signin-btn,
 .buy-btn {
     background: #222;
@@ -316,15 +309,15 @@ body {
 
 .product-img-box {
     width: 100%;
-    height: 300px;
     overflow: hidden;
 }
 
 .product-img-box img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    display: block;
 }
+
 
 .product-info {
     padding: 20px;
